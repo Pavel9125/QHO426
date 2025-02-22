@@ -1,5 +1,5 @@
 # Activity 1 Outputting a Simple Message
-print("Welcome to \"QHO426!\"")
+print("Welcome to QHO426!")
 
 # Activity 2 Outputting a Multi-line Message
 # Task 1
@@ -24,3 +24,9 @@ print("\t Displays a tab space")
 print("\\ Displays a back slash")
 print("\" Displays a double quote")
 print("\' Displays a single quote")
+# Task 2
+print("\n\t \"I am programming!\"") # Example of Escape Characters
+
+
+
+
