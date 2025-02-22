@@ -27,6 +27,10 @@ print("\' Displays a single quote")
 # Task 2
 print("\n\t \"I am programming!\"") # Example of Escape Characters
 
-
+# Activity 4 Ascii Art
+print("##########")
+print("#        #")
+print("#        #")
+print("##########")
 
 
