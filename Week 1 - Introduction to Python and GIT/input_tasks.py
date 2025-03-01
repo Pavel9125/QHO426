@@ -14,7 +14,7 @@ eye = input()
 print(f'''
 ##########
 # {eye}    {eye} #
-#  ----  #
+#  ----  x  #
 ##########''')
 
 #Activity 3:Data Types
