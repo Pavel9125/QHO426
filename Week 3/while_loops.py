@@ -35,6 +35,15 @@ while bars_charged < charged_bars:
 
 print("\nThe battery is fully charged!")
 
+#Activity 4: Repeating Word
+#Task
+print("Please enter a phrase")
+phrase = input()
+hello = 0
+while hello < len(phrase):
+    print("Hi ", end="")
+    hello = hello + 1
+
 
 
 
