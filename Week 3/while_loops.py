@@ -21,6 +21,6 @@ while avoided_obstacles < obstacle_avoid:
     avoided_obstacles = avoided_obstacles + 1
     print(f"Done! {avoided_obstacles} obstacles avoided.")
 
-print("\nAll obstacles have been avoided.")
+print("\nAll obstacles have been avoided!")
 
 
