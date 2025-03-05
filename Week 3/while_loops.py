@@ -44,6 +44,19 @@ while hello < len(phrase):
     print("Hi ", end="")
     hello = hello + 1
 
+#Activity 5: Sum 100
+#Task
+print("Calculate the sum of the first 100 numbers...")
+i = 1
+total = 0
+
+while i <= 100:
+    total += i
+    i += 1
+
+print("...Done! The answer is", total)
+
+
 
 
 
