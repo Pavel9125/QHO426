@@ -1,7 +1,7 @@
 #Input
-surname = input("Please enter your surname:")
-firstname = input("Please enter your firstname:")
-numLucky = float(input("Please enter your lucky number: "))
+surname = input("Please enter your surname:") # Ask user for surname
+firstname = input("Please enter your firstname:") # Ask user for firstname
+numLucky = float(input("Please enter your lucky number: ")) # Ask user for Lucky number
 #Let's add 10 to the lucky number
 #numNew = numLucky+10
 #print(numNew)
