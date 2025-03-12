@@ -12,12 +12,12 @@ count = 0
 #for marker_p in range (0, len(user_sequence), 1):
 for character in user_sequence:
     if (counting == False) and (character == user_marker):
-        print("First Marker")
+        #print("First Marker")
         counting = True
     elif (counting == True) and (character == user_marker):
-        print("Second Marker")
+        #print("Second Marker")
         counting = False
     elif counting:
         count += 1
-print(f"The total characters between the markers are {count}")
+print(f"\nThe total characters between the markers are {count}")
 
