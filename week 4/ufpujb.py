@@ -7,12 +7,3 @@
  #   current_number += 1
 #print("\nThe answer is", total_sum)
 
-
-weight = input("Weight: ")
-input ("(K)g or (L)bs: ")
-if input() == "k" or "K":
-    print("\n Your weight in kg is ", weight)
-elif weight.lower() == "l" or "L":
-    print("\n Your weight in lbs is ", weight)
-else:
-    print("\n Wrong input")
