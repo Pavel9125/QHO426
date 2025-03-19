@@ -13,7 +13,7 @@ print(f"I'm thinking of a number between {minvalue} and {maxvalue}. Can you gues
 num_guessed_correct = False
 
 while not num_guessed_correct:
-    print("Please enter number ")
+    print("Please enter number: ")
     user_entered = int(input())
 
     if user_entered == ran_num:
