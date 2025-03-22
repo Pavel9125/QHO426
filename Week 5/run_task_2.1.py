@@ -3,12 +3,8 @@ def movements():
     return path
 def run_task2():
     print("Moving... ")
-    m=movements()
-    print(f"{m[0]} for {m[1]} steps")
-    print(f"{m[2]} for {m[3]} steps")
-    print(f"{m[4]} for {m[5]} steps")
-    print(f"{m[6]} for {m[7]} steps")
-
+    path1=movements()
+    for i in range(0,len(path1),2):
+        print(f"{path1[i]} for {path1[i+1]} , steps")
 if __name__ == "__main__":
     run_task2()
-
